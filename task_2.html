@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h2>Conference Registration Form</h2>
+    <form>
+        <label for="full_name">Full Name:</label><br>
+        <input type="text" id="full_name" name="full_name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="age" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br><br>
+
+        <label for="country">Country of Residence:</label><br>
+        <select name="country">
+        <option value="malaysia">Malaysia</option>      
+        <option value="singapore">Singapore</option>  
+        <option value="indonesia">Indonesia</option>
+        <option value="thailand">Thailand</option>
+        </select><br><br>
+
+        <label for="area">Areas of Interest:</label><br>
+        <input type="checkbox" name="area" value="Software Development">Software Development<br>
+        <input type="checkbox" name="area" value="Data Science">Data Science<br>
+        <input type="checkbox" name="area" value="Cybersecurity">Cybersecurity<br>
+        <input type="checkbox" name="area" value="Artificial Intelligence">Artificial Intelligence<br><br>
+
+        <label for="experience">Experience Level:</label><br>
+        <input type="radio" name="level" value="beginner">Beginner<br>
+        <input type="radio" name="level" value="intermediate">Intermediate<br>
+        <input type="radio" name="level" value="advanced">Advanced<br><br>
+
+        <label for="comments">Comments or Questions:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="100">Any comments or questions?</textarea><br>
+        <input type="submit" value="Register">
+        <input type="submit" value="Reset">
+    </form> 
+
+    
+</head>
+</html>
